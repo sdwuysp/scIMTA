@@ -10,6 +10,7 @@ from sklearn import metrics
 seed(1)
 tf.random.set_seed(1)
 
+
 # Remove warnings
 import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
