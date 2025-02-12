@@ -12,6 +12,7 @@ from scipy.sparse import issparse
 from anndata import AnnData
 
 
+
 def convert_string_to_encoding(string, vector_key): 
     return np.argwhere(vector_key == string)[0][0]
 
