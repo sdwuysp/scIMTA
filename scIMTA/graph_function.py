@@ -8,6 +8,7 @@ import scanpy as sc
 from anndata import AnnData
 from spektral.layers import GraphConv
 
+
 def get_adj(count, k=15, pca=50, mode="connectivity", metric="euclidean", s=2):
     if pca:
         countp = dopca(count, dim=pca)
