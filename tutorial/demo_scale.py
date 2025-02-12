@@ -21,6 +21,7 @@ from spektral.layers import GraphConv
 import numpy as np
 
 
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="train", formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument("--highly_genes", default = 1000, type=int)
