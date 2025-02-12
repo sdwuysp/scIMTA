@@ -13,8 +13,6 @@ sc.pp.filter_genes(adata, min_cells=5)
 
 
 
-
-
 adata.var['mt'] = adata.var_names.str.startswith('MT-')  # annotate the group of mitochondrial genes as 'mt'
 sc.pp.calculate_qc_metrics(adata, qc_vars=['mt'], percent_top=None, log1p=False, inplace=True)
 
