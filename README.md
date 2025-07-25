@@ -1,5 +1,4 @@
 # scIMTA
-`scIMTA` is a Python package containing tools for clustering single-cell data based on a graph-embedding autoencoder that simultaneously learns cell–cell topology representation and cluster assignments.
 
 - [Overview](#overview)
 - [System Requirements](#system-requirements)
